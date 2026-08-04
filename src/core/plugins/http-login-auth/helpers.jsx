@@ -1,3 +1,7 @@
+/*
+ * SPDX-FileCopyrightText: Copyright 2024 ThingsBoard, Inc.
+ * SPDX-License-Identifier: Apache-2.0
+ */
 import React from "react"
 
 export const isOAS3 = (jsSpec) => {

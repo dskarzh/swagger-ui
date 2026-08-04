@@ -1,3 +1,7 @@
+/*
+ * SPDX-FileCopyrightText: Copyright 2024 ThingsBoard, Inc.
+ * SPDX-License-Identifier: Apache-2.0
+ */
 import { Map } from "immutable"
 
 import { AUTHORIZE_HTTP_JWT_TOKEN } from "./actions";
