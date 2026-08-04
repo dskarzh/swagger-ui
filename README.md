@@ -24,6 +24,11 @@ release as follows:
 + `package.json` and `package-lock.json` set the version to the fork's
   `TB`-suffixed form.
 + The `dist` bundles are rebuilt from this fork's sources.
++ `dist/swagger-ui-bundle.js.map`, `dist/swagger-ui-es-bundle.js.map` and
+  `dist/swagger-ui-standalone-preset.js.map` are deleted. The fork's build
+  does not generate source maps for these three bundles, none of the bundles
+  references a map, and the committed files were stale leftovers from an
+  earlier release that no longer described the bundles next to them.
 
 The list above serves as the modification notice required by section 4(b) of
 the Apache License 2.0 for the changed files that cannot carry an in-file
